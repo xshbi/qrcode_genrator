@@ -8,7 +8,43 @@ Responsive Design: Works seamlessly on both desktop and mobile devices.
 Downloadable: Save the generated QR codes as image files for later use.
 
 
-Open index.html in your web browser to start generating QR codes.
+
+🛠️ Installation
+Prerequisites
+Python 3.x
+virtualenv package
+
+Setup
+
+Clone the repository:
+git clone https://github.com/xshbi/qrcode_generator.git
+
+Navigate to the project directory:
+cd qrcode_generator
+
+Create a virtual environment:
+python -m venv venv
+
+Activate the virtual environment:
+On Windows:
+venv\Scripts\activate
+
+On macOS and Linux:
+source venv/bin/activate
+
+Install the required packages:
+pip install -r requirements.txt
+
+Requirements
+Create a requirements.txt file with the following content:
+
+qrcode
+pillow
+pyzbar
+
+
+
+
 🚀 Usage
 Enter the URL you want to convert into a QR code.
 Customize the appearance if needed.
